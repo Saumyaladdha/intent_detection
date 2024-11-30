@@ -1,0 +1,7 @@
+{
+    "model_directory": "bert_intent_model",
+    "max_seq_length": 128,
+    "batch_size": 32,
+    "learning_rate": 2e-5,
+    "epochs": 30
+}
