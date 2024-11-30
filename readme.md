@@ -92,8 +92,7 @@ Each intent represents a specific user query type, ensuring a diverse and balanc
 
 ### **Detailed Classification Report**
 
-markdown  
-Copy code  
+
                       `precision    recall  f1-score   support`
 
          `RETURN_EXCHANGE       0.83      1.00      0.91         5`  
@@ -139,8 +138,7 @@ Example predictions with the trained model:
 
 Create a virtual environment and install the required libraries:
 
-bash  
-Copy code  
+ 
 `python3 -m venv venv`  
 ``source venv/bin/activate  # Use `venv\Scripts\activate` on Windows``  
 `pip install -r requirements.txt`
@@ -149,8 +147,6 @@ Copy code
 
 Run the training script:
 
-bash  
-Copy code  
 `python scripts/train.py`
 
 This will save the trained model and tokenizer in the `bert_intent_model/` directory.
@@ -159,8 +155,7 @@ This will save the trained model and tokenizer in the `bert_intent_model/` direc
 
 Run the prediction script with sample queries:
 
-bash  
-Copy code  
+ 
 `python scripts/predict.py`
 
 ---
@@ -203,5 +198,4 @@ Copy code
 
 This project demonstrates the successful application of **BERT** for intent detection, achieving high accuracy and robust predictions. By improving data representation and expanding the dataset, the system can be further enhanced for real-world deployment.
 
-Let me know if you'd like further modifications or additional details\!
 
